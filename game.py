@@ -64,8 +64,6 @@ vozm_ch_d_zabrat_vlevo_vniz = False
 vozm_ch_d_zabrat_vpravo_vniz = False
 vozm_ch_d_zabrat = False
 AI = True
-WIDTH = 800
-ROWS = 8
 def izobrazheniya_figur():  # загружаем изображения фигур
     global figuri
     i1 = PhotoImage(file="src\\white_checkers.png")
