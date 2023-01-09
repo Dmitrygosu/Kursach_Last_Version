@@ -681,7 +681,7 @@ def AI_hod():
 
     if AI:
         if black_count == 0:
-            messagebox.showinfo(title='Победа белых', message='Победили белые.', icon='info')
+            messagebox.showinfo(title='Победа черных', message='Победили черные.', icon='info')
             hod_igroka = None
             Start_new()
 
@@ -883,7 +883,7 @@ def AI_hod():
                 vozm_ch_d_zabrat = False
                 chernie_proverka()
             if white_count == 0:
-                messagebox.showinfo(title='Победа черных', message='Победили черные.', icon='info')
+                messagebox.showinfo(title='Победа белых', message='Победили белые.', icon='info')
                 hod_igroka = None
                 Start_new()
             chernie_proverka()
@@ -2151,3 +2151,4 @@ if __name__ == "__main__":
     LoginForm.show()
 
     sys.exit(app.exec_())
+#значимых строк 2056
